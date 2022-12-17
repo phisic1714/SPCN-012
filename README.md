@@ -4,6 +4,8 @@
 
 # <p align="center">สรุปความเข้าใจในการสร้าง VM ใน Proxmox</p>
 
+<p align="center"><img src="Sceenshots/pic.png"></p>
+
 ในการสร้าง Virtual Vachine(VM) หรือสร้าง [Container](#container-technology) เพื่อสร้างสภาพแวดล้อมเฉพาะสำหรับ Software โดย ทำงานไม่กินทรัพยากรณ์ของเครื่อง Local จึงนำ [Proxmox](#proxmox) มาใช้งาน เพราะมีบริการในการสร้าง [Hypervisor](#hypervisor-technology) เพื่อจำลอง ฮาร์ดแวร์คอมพิวเตอร์ ซอฟต์แวร์ หรือเฟิร์มแวร์ เพื่อใช้ในการรองรับการติดตั้ง Virtual Vachine(VM) หรือ [Container](#container-technology)  และเป็นตัวกลางระหว่างเครื่องจำลอง กับ Local โดยตัวเครื่อง Host เปิดให้บริการแต่ล่ะเครื่อง Local มาใช้งาน โดยรูปแบบการเก็บข้อมูลจะเป็นแบบ [Ceph](#ceph) ซึ่งจะมีลักษณะ Distributed Storage จะทำงานใน Cluster ซึ่งรูปแบบ Server จะเป็นแบบ [Microservice](#monolithic-microservice) จะเป็นการแบ่งย่อยการทำงานของ Server ทำให้ไม่มีความกระจุกกันของข้อมูล และ [Proxmox](#proxmox) สามารถให้บริการ ิ[NFS](#nfs) จะเป็นบริการที่สามารถให้เครื่อง Local แต่ละตัวที่มาใช้งาน [Hypervisor](#hypervisor-technology) สามารถส่งไฟล์หาถึงกันได้ นี่คือข้อสรุปการสร้าง VM ใน [Proxmox](#proxmox) 
 
 ------
