@@ -16,13 +16,13 @@
 
 ref: https://en.wikipedia.org/wiki/Hypervisor
 
-    [top⬆️](#spcn-012)
+   [top⬆️](#spcn-012)
 ## Container Technology 
 * **Container** เป็นการสร้างสภาพแวดล้อมเฉพาะที่ทำให้ซอฟต์แวร์ทำงานได้โดยไม่รบกวนซอฟต์แวร์ตัวอื่นบนระบบปฏิบัติเดียวกัน สามารถการจัดเก็บแอปพลิเคชั่นให้อยู่ในรูปแบบที่ง่ายต่อการโยกย้ายและนำขึ้นระบบ ประกอบไปด้วยตัวแอปพลิเคชั่นเอง library หรือ binary ที่จำเป็นในการ run แอปพลิเคชั่นนั้นๆ และการกำหนดค่าต่างๆ ของแอปพลิเคชั่นนั้น เมื่อเวลาย้ายตัวแอปพลิเคชั่นไหนที่ถูกจัดเก็บเป็น **container** แล้วนำไป run ที่อื่นก็สามารถใช้ทำงานได้โดยไม่ต้องสนใจถึงระบบปฏิบัติการ เพราะสามารถทำงานในทุกประเภทของระบบปฏิบัติการ
 
 ref: https://en.wikipedia.org/wiki/Containerization_(computing)
 
-    [top⬆️](#spcn-012)
+   [top⬆️](#spcn-012)
 ## Monolithic MicroService 
 * **Monolithic หรือ Monolithic  Architecture** สถาปัตยกรรมการออกแบบซอฟต์แวร์หรือ Service ที่มีคนใช้งานเป็นจำนวนมากและมีมาอย่างยาวนาน ลักษณะของระบบที่การทำงานทุกอย่างจะรวมอยู่ในกลุ่มก้อนเดียวกันและใช้งาน Database เดียวกัน
 
@@ -31,13 +31,13 @@ ref: https://en.wikipedia.org/wiki/Containerization_(computing)
 ref: https://en.wikipedia.org/wiki/Microservices 
      https://en.wikipedia.org/wiki/Monolithic_application
 
-    [top⬆️](#spcn-012)
+   [top⬆️](#spcn-012)
 ## Proxmox 
 * **Proxmox หรือ Proxmox VE** แพลตฟอร์มที่จะมาช่วยในเรื่องการจัดการเซิร์ฟเวอร์เสมือน โดยผสานเข้าร่วมกับ Hypervisor และ Linux Container (LXC) ไว้บนแพลตฟอร์มเดียว โดยจะจัดเก็บข้อมูลและฟังก์ชันการทำงานของระบบเครือข่ายและสามารถจัดการกลุ่มการเข้าถึงข้อมูลที่มีประสิทธิภาพ และมีเครื่องมือการกู้ระบบได้ด้วยผ่านการควบคุมหน้าเว็บไซต์และสามารถจัดการกับ Virtual Machine ของเราได้อย่างมีประสิทธิภาพ ไม่ว่าจะเป็นการควบคุมหรือการสร้าง Virtual Environment ขึ้นมา คล้ายกับ ESXi ของ VMware โดยจะสามารถรองรับหรือให้บริการ HCI หรือที่เราเรียกกันว่า Hyper Converged Infrastructure เหมาะสำหรับการใช้งานองค์กร
 
 ref: https://en.wikipedia.org/wiki/Proxmox_Virtual_Environment
 
-    [top⬆️](#spcn-012)
+   [top⬆️](#spcn-012)
 ## Ceph
 * 	**Ceph Storage เป็นระบบ distributed storage** แบบหนึ่งที่ทำงานบน **cluster** ของ computer node ประกอบด้วย node 3 ประเภท คือ 
     1)	Monitor ทำหน้าที่ดูแลสถานะของ cluster
@@ -52,7 +52,7 @@ ref: https://en.wikipedia.org/wiki/Proxmox_Virtual_Environment
 
 ref: https://en.wikipedia.org/wiki/Ceph_(software)
 
-    [top⬆️](#spcn-012)
+   [top⬆️](#spcn-012)
 ## NFS 
 * **NFS (Network File System)** บริการที่ทำให้เครื่องคอมพิวเตอร์สามารถแชร์ File และ Directory ผ่าน Network บนเครื่องคอมพิวเตอร์เครื่องอื่นได้เหมือนกับใช้งานเครื่องของตัวเองได้อย่างสะดวก ง่าย และมีประสิทธิภาพ โดยระบบปฏิบัติการของเครื่องลูกข่ายไม่จำเป็นต้องเป็นระบบปฏิบัติการเดียวกันกับเครื่องแม่ข่าย 
 
@@ -60,4 +60,4 @@ ref: https://en.wikipedia.org/wiki/Ceph_(software)
 
 ref: https://en.wikipedia.org/wiki/Network_File_System
 
-    [top⬆️](#spcn-012)
+   [top⬆️](#spcn-012)
